@@ -1,0 +1,170 @@
+body {
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main
+{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    border: 0.1rem solid black;
+    box-sizing: border-box;
+    padding: 5%;
+}
+
+
+.datos-personales 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.texto-personal {
+    font-style: normal;
+}
+
+.imagen {
+    width: 20%;
+    height: 15vh;
+    border: 0.1rem solid black;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section {
+    margin-top: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+li a {
+ 
+    color: black;
+    text-decoration: none;
+ 
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.estudios li a {
+    text-decoration: underline;
+}
+
+.Empresa1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Datos1 {
+    width: 60%;
+}
+
+.Mapa1 iframe {
+    width: 100%;
+    height: 30vh;
+    border: 0;
+}
+
+.Empresa2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Datos2 {
+    width: 60%;
+}
+
+.Mapa2 iframe {
+    width: 100%;
+    height: 30vh;
+    border: 0;
+}
+
+.Empresa3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Datos3 {
+    width: 60%;
+}
+
+.Mapa3 iframe {
+    width: 100%;
+    height: 30vh;
+    border: 0;
+}
+
+.Universidad {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Datos_Universidad {
+    width: 60%;
+}
+
+.ImagenesUniversidad {
+    width: 30%;
+}
+
+.ImagenesUniversidad img {
+    width: 70%;
+}
+
+.Cursos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Datos_Cursos {
+    width: 60%;
+}
+
+.ImagenesCursos {
+    width: 30%;
+}
+
+.ImagenesCursos img {
+    width: 70%;
+}
+
+.Secundario {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Datos_Secundario {
+    width: 60%;
+}
+
+.ImagenesSecundario {
+    width: 30%;
+}
+
+.ImagenesSecundario img {
+    width: 70%;
+}

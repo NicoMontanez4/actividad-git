@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Contacto</title>
+        <link rel ="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+
+        <main>
+
+            <header>
+
+            <a href = "index.html"> HOME </a>
+            <span>|</span>
+            <a href = "contacto.html"> CONTACTO </a>
+
+
+            </header>
+
+            <section class="contenido">
+
+
+                <form action="/procesar-datos" method="POST">
+
+                    <fieldset>
+
+                        <label class="campo" for="usuario">Nombre:
+                            <input type="text" id="usuario" name="username" required>
+                        </label>
+
+                        <label class="campo" for="mail">E-mail:
+                            <input type="email" id="mail" name="email" required>
+                        </label>
+
+                        <label class="campo" for="telefono">Tel:
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </label>
+
+                        <label class="campo campo-mensaje" for="mensaje">Mensaje:
+                            <textarea id="mensaje" name="user_message" required></textarea>
+                        </label>
+
+                        <p class="botones">
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Cancelar</button>
+                        </p>
+
+                    </fieldset>
+
+                </form>
+
+            </section>
+
+           
+            <footer>
+
+                Todos los derechos reservados
+                
+            </footer>
+
+        </main>
+        
+    </body>
+
+
+</html>
