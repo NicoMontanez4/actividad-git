@@ -37,7 +37,7 @@ header a{
     height: 80%;
     overflow-y:auto;
     overflow-x: hidden;
-    padding: 3rem;
+    padding: 2rem;
     box-sizing: border-box;
     
 }
@@ -80,33 +80,19 @@ header a{
     margin-bottom: 0.3rem;
 }
 
-footer{
-
-    height: 10%;
-    border-top: 0.1rem solid black;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    font-size: 1.1rem;
-
-}
-
 
 form {
-    width: 80%;
+    width: 90%;
     margin: auto;
-}
-
-fieldset {
-    padding: 1.5rem;
-    border: 1px solid black;
-    background-color: rgb(240, 240, 240);
+    padding: 1rem;
     box-sizing: border-box;
+    border: 0.1rem solid black;
+    background-color: rgb(245, 244, 244);
+
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 1rem;
+    
 }
 
 .campo {
@@ -115,19 +101,16 @@ fieldset {
     gap: 0.5rem;
 }
 
-.campo label {
-    width: 5rem;
+.campo span {
+    width: 6rem;
     flex-shrink: 0;
-}
-
-.campo-mensaje {
-    align-items: flex-start;
 }
 
 input {
     width: 12rem;
     height: 1.7rem;
     box-sizing: border-box;
+    background-color: rgb(245, 244, 244);
 }
 
 textarea {
@@ -135,7 +118,13 @@ textarea {
     height: 6rem;
     box-sizing: border-box;
     font-family: inherit;
+    background-color: rgb(245, 244, 244);
 }
+
+.campo-mensaje {
+    align-items: flex-start;
+}
+
 
 .botones {
     display: flex;
@@ -149,6 +138,8 @@ button {
     height: 1.9rem;
     font-size: 1rem;
     cursor: pointer;
+    border-radius: 0.3rem;
+    border: 0.1rem solid #777;
 }
 
 .botones button:first-of-type {
@@ -157,4 +148,17 @@ button {
 
 .botones button:last-of-type {
     background-color: rgb(240, 190, 195);
+}
+
+footer{
+
+    height: 10%;
+    border-top: 0.1rem solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 1.1rem;
+
 }
