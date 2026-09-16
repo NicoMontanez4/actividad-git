@@ -89,16 +89,19 @@ body{
     }
 
     .caja-1{
+        grid-column: 1;
         grid-row: 1;
         background-color: rgb(195, 255, 195);
     }
 
     .caja-3{
+        grid-column: 1;
         grid-row: 2;
         background-color: rgb(252, 252, 203)
     }
 
     .caja-6{
+        grid-column: 1;
         grid-row: 3;
         background-color: rgb(162, 232, 255);
     }
